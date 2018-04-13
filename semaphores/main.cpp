@@ -46,6 +46,7 @@ int main(int argc, char *argv[])
     producer.start();
     consumer.start();
 
+    producer.wait();
     consumer.wait();
 
     return a.exec();
