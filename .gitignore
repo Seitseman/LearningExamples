@@ -1,2 +1,5 @@
 
 semaphores/semaphores.pro.user
+
+**/**/*.pro.user
+**/**/build-*
